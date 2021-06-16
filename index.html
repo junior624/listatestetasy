@@ -1,123 +1,746 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <link rel="stylesheet" href="CSS/style.css">
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
 </head>
+
 <body>
-<div id="titulo">
-  <h2>LISTA TESTE TASY</h2>
-</div>
+  <div id="titulo">
+    <h2>LISTA TESTE TASY</h2>
+  </div>
 
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="busque aqui..." title="Ecreva parte do nome aqui">
-<div>
-  <table id="myTable">
-    <tr class="header">
-      <th style>ITEM</th>
-      <th style>TASY</th>
-      <th style>COPIAR</th>
-    </tr>
-    
-    
-      <tr><td>BATERIA 17014 12V 4000MAH DATEX OHMEDA (GE Compact)</td><td data-type="cod">126446<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA SURESINGS VM8 989803144631 PHILIPS </td><td data-type="cod">108836<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 10.8V 65Wh COD M4605A P/MONITOR MULTIPARAMETRO MARCA PHILIPS MOD MP20 </td><td data-type="cod">145310 <td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 12V 2300MAH MOD FILMADORA SELADA PB PARA MONITOR MEC 1000</td><td data-type="cod">116266<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 12V 2,3AH PARA CARDIOCAP 5</td><td data-type="cod">100131<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>PACK DE BATERIA 12V 3,8AH GAA312V1 PARA MONITOR DX2022 DIXTAL</td><td data-type="cod">106134<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 12V/2300MAH FB1223 PARA OXIMETRO VS800 MINDRAY </td><td data-type="cod">134578<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 12V 4,5AH PARA MONITOR BSM 2301K NIHON KOHDEN</td><td data-type="cod">135819<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA NKB 101 X060 PARA MONITOR BSM 5105KC NIHON KOHDEN</td><td data-type="cod">129592<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>MODULO DE BATERIA 12V 9,0AH PARA MONITOR DX2021 DIXTAL HL</td><td data-type="cod">125850<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA 6V 4,0AH/20HR PARA OXIMETRO DE PULSO N600X NELLCOR</td><td data-type="cod">109343<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA SELADA 6V 4,5A OXIMETRO NELLCOR </td><td data-type="cod">131972<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>BATERIA DA MEMORIA SRAM COD 197230-HEL-S PARA MONITOR LIGHT DATEX-OHMEDA</td><td data-type="cod">158193<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR SPO2 CLIP ADULTO 2.7M COD 02ACA09DI DIXTAL</td><td data-type="cod">108818<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR SPO2 ADULTO REUTILIZAVEL PARA OXIMETRIA (NELLCOR DS-100A) CAF MATERIAIS</td><td data-type="cod">95969<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PARA OXIMETRO DE PULSO - (GE TS-H3) CAF MATERIAIS </td><td data-type="cod">60272<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR ADULTO SEM CABO (GE TS-F-D) - CAF MATERIAIS</td><td data-type="cod">60278<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO EXTENSOR OXIMETRIA OHMEDA REF TS-G3 - (GE B650 / Compact) - NÃO PADRÃO</td><td data-type="cod">98339<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO EXTENSOR DE OXIMETRIA NELLCOR OXIMAX P/DASH 2500 REF 2021406-001 - GE B20 OXIMAX </td><td data-type="cod">102101<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO EXTENSOR DE OXIMETRIA DOC-10 NELLCOR - NÃO PADRÃO</td><td data-type="cod">102801<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO TRONCO DE OXIMETRO PARA MONITOR REF 561A MINDRAY</td><td data-type="cod">115373<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR DE OXIMETRIA M1191BL PHILIPS</td><td data-type="cod">108840<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR DE OXIMETRIA PARA OPV1500 P225F/TL-201T NIHON KOHDEN BSM 3763</td><td data-type="cod">98561<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO EXTENSOR DE OXIMETRIA  JL-900P K931 NIHON KOHDEN BSM 3763</td><td data-type="cod">138530<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO EXTENSOR DE OXIMETRIA 0010-20-42594 MINDRAY VS 800</td><td data-type="cod">101587<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>SENSOR DE OXIMETRIA CLIP DE DEDO ADULTO P/MONITOR MINDRAY</td><td data-type="cod">101675<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PARA PINCA BIPOLAR AUTOCLAVAVEL BC11 (ELETROCAUTÉRIO WEM) - CAF MATERIAIS</td><td data-type="cod">157996<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PARA PINÇA BIPOLAR BC14 (ELETROCAUTÉRIO VALLEYLAB) - CAF MATERIAIS</td><td data-type="cod">153910<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CONJUNTO DE RABICHOS ECG 5 VIAS AHA PARA DASH REF 414556-001 LEADS GE B650</td><td data-type="cod">98399<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO DE ECG REF 2017003-001 PARA MONITOR B650 CABO TRONCO GE</td><td data-type="cod">98398<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CONJUNTO DE RABICHO 5 VIAS REF.AE-0R01R-0 - DIXTAL</td><td data-type="cod">104068<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO DE ECG/RESP 5VIAS S/RABICHO UTI AE-0H002-0 - DIXTAL</td><td data-type="cod">108793<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO DE ECG 3VIAS MODELO EA6132B COMPLETO CABO TRONCO+LEADS NIHON KOHDEN</td><td data-type="cod">112441<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO DE ECG TRONCO K922-JC906P NIHON KOHDEN</td><td data-type="cod">101673<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CONJUNTO LEADS 6VIAS BR 906P-K912 NIHON KOHDEN</td><td data-type="cod">104382<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO TRONCO PARA MONITOR CARDIOCAP GE REF545303 - AHA 5 VIAS</td><td data-type="cod">98394<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CONJUNTO LEDS 5VIAS OHMEDA CARDIOCAP GE REF545318 - AHA 5 VIAS JACARÉ</td><td data-type="cod">98396<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>Kit leads ECG 5 vias REF: M1644A - PHILIPS MP20</td><td data-type="cod">140299<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>Cabo tronco ECG 5 vias REF: M1668A - PHILIPS MP 20</td><td data-type="cod">141671<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-      <tr><td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td><td data-type="cod">57264<td><button data-type="copy">Copiar tasy</button></td></td></tr>
-  
-  </table>
-</div>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="busque aqui..." title="Ecreva parte do nome aqui">
+  <div>
+    <table id="myTable">
+      <tr class="header">
+        <th style>ITEM</th>
+        <th style>TASY</th>
+        <th style>COPIAR</th>
+      </tr>
 
-<div id="footer">
-  <p>Criado por Antonio Furtado<br>Todos os direitos reservados</p>
-</div>
 
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+      <tr>
+        <td>BATERIA 17014 12V 4000MAH DATEX OHMEDA (GE Compact)</td>
+        <td data-type="cod">126446
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA SURESINGS VM8 989803144631 PHILIPS </td>
+        <td data-type="cod">108836
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 10.8V 65Wh COD M4605A P/MONITOR MULTIPARAMETRO MARCA PHILIPS MOD MP20 </td>
+        <td data-type="cod">145310
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V 2300MAH MOD FILMADORA SELADA PB PARA MONITOR MEC 1000</td>
+        <td data-type="cod">116266
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V 2,3AH PARA CARDIOCAP 5</td>
+        <td data-type="cod">100131
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>PACK DE BATERIA 12V 3,8AH GAA312V1 PARA MONITOR DX2022 DIXTAL</td>
+        <td data-type="cod">106134
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V/2300MAH FB1223 PARA OXIMETRO VS800 MINDRAY </td>
+        <td data-type="cod">134578
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V 4,5AH PARA MONITOR BSM 2301K NIHON KOHDEN</td>
+        <td data-type="cod">135819
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA NKB 101 X060 PARA MONITOR BSM 5105KC NIHON KOHDEN</td>
+        <td data-type="cod">129592
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MODULO DE BATERIA 12V 9,0AH PARA MONITOR DX2021 DIXTAL HL</td>
+        <td data-type="cod">125850
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 6V 4,0AH/20HR PARA OXIMETRO DE PULSO N600X NELLCOR</td>
+        <td data-type="cod">109343
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA SELADA 6V 4,5A OXIMETRO NELLCOR </td>
+        <td data-type="cod">131972
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA DA MEMORIA SRAM COD 197230-HEL-S PARA MONITOR LIGHT DATEX-OHMEDA</td>
+        <td data-type="cod">158193
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR SPO2 CLIP ADULTO 2.7M COD 02ACA09DI DIXTAL</td>
+        <td data-type="cod">108818
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR SPO2 ADULTO REUTILIZAVEL PARA OXIMETRIA (NELLCOR DS-100A) CAF MATERIAIS</td>
+        <td data-type="cod">95969
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO PARA OXIMETRO DE PULSO - (GE TS-H3) CAF MATERIAIS </td>
+        <td data-type="cod">60272
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR ADULTO SEM CABO (GE TS-F-D) - CAF MATERIAIS</td>
+        <td data-type="cod">60278
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR OXIMETRIA OHMEDA REF TS-G3 - (GE B650 / Compact) - NÃO PADRÃO</td>
+        <td data-type="cod">98339
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA NELLCOR OXIMAX P/DASH 2500 REF 2021406-001 - GE B20 OXIMAX </td>
+        <td data-type="cod">102101
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA DOC-10 NELLCOR - NÃO PADRÃO</td>
+        <td data-type="cod">102801
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO DE OXIMETRO PARA MONITOR REF 561A MINDRAY</td>
+        <td data-type="cod">115373
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA M1191BL PHILIPS</td>
+        <td data-type="cod">108840
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA PARA OPV1500 P225F/TL-201T NIHON KOHDEN BSM 3763</td>
+        <td data-type="cod">98561
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA JL-900P K931 NIHON KOHDEN BSM 3763</td>
+        <td data-type="cod">138530
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA 0010-20-42594 MINDRAY VS 800</td>
+        <td data-type="cod">101587
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA CLIP DE DEDO ADULTO P/MONITOR MINDRAY</td>
+        <td data-type="cod">101675
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO PLACA DE ELETROCAUTERIO - CAF MATERIAIS</td>
+        <td data-type="cod">57264
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO PARA PINCA BIPOLAR AUTOCLAVAVEL BC11 (ELETROCAUTÉRIO WEM) - CAF MATERIAIS</td>
+        <td data-type="cod">157996
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO PARA PINÇA BIPOLAR BC14 (ELETROCAUTÉRIO VALLEYLAB) - CAF MATERIAIS</td>
+        <td data-type="cod">153910
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO DE RABICHOS ECG 5 VIAS AHA PARA DASH REF 414556-001 LEADS GE B650</td>
+        <td data-type="cod">98399
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG REF 2017003-001 PARA MONITOR B650 CABO TRONCO GE</td>
+        <td data-type="cod">98398
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO DE RABICHO 5 VIAS REF.AE-0R01R-0 - DIXTAL</td>
+        <td data-type="cod">104068
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG/RESP 5VIAS S/RABICHO UTI AE-0H002-0 - DIXTAL</td>
+        <td data-type="cod">108793
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG 3VIAS MODELO EA6132B COMPLETO CABO TRONCO+LEADS NIHON KOHDEN</td>
+        <td data-type="cod">112441
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG TRONCO K922-JC906P NIHON KOHDEN</td>
+        <td data-type="cod">101673
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEADS 6VIAS BR 906P-K912 NIHON KOHDEN</td>
+        <td data-type="cod">104382
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO PARA MONITOR CARDIOCAP GE REF545303 - AHA 5 VIAS</td>
+        <td data-type="cod">98394
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEDS 5VIAS OHMEDA CARDIOCAP GE REF545318 - AHA 5 VIAS JACARÉ</td>
+        <td data-type="cod">98396
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>Kit leads ECG 5 vias REF: M1644A - PHILIPS MP20</td>
+        <td data-type="cod">140299
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>Cabo tronco ECG 5 vias REF: M1668A - PHILIPS MP 20</td>
+        <td data-type="cod">141671
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO DE RABICHOS ECG 5 VIAS LEADS AHA PARA DASH REF 414556-001 GE B650</td>
+        <td data-type="cod">98399
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO DE ECG REF 2017003-001 PARA MONITOR GE B650</td>
+        <td data-type="cod">98398
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO DE RABICHO 5 VIAS REF.AE-0R01R-0 - DIXTAL</td>
+        <td data-type="cod">104068
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG/RESP 5VIAS S/RABICHO UTI AE-0H002-0 - DIXTAL</td>
+        <td data-type="cod">108793
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG 3VIAS MODELO EA6132B COMPLETO CABO TRONCO+LEADS </td>
+        <td data-type="cod">112441
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG TRONCO K922-JC906P NIHON KOHDEN</td>
+        <td data-type="cod">101673
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEADS 6VIAS BR 906P-K912 NIHON KOHDEN</td>
+        <td data-type="cod">104382
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO PARA MONITOR CARDIOCAP GE REF545303 - AHA 5 VIAS</td>
+        <td data-type="cod">98394
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEDS 5VIAS OHMEDA CARDIOCAP GE REF545318 - AHA 5 VIAS JACARÉ</td>
+        <td data-type="cod">98396
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>Kit leads ECG 5 vias REF: M1644A - PHILIPS mp20</td>
+        <td data-type="cod">140299
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>Cabo tronco ECG 5 vias REF: M1668A - PHILIPS MP 20</td>
+        <td data-type="cod">141671
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUITO ADULTO DUAS VIAS DURA-CUF 2TB 23CM-33CM 2753E GE HEALTHCARE</td>
+        <td data-type="cod">102099
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUITO ADULTO 1VIA LATEX FREE 23-33CM CRITIKON</td>
+        <td data-type="cod">125522
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUITO 2 VIAS LATEX FREE 31-40CM CRITIKON obeso</td>
+        <td data-type="cod">125964
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUITO ADULTO 2VIAS REUTILIZAVEL 27-35CM M5214</td>
+        <td data-type="cod">135318
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUEIRA PNI PARA DASH E TRAM DE 3,6M CARE NIBP MIRI AIRHOSE, MATED SUBMIN ADULTO 12 FT REF 2020980-001 GE
+          - MANGUEIRA B650</td>
+        <td data-type="cod">104981
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUEIRA DE PRESSÃO REF. DX-0JC0A-0 DIXTAL - CARDIOCAP</td>
+        <td data-type="cod">104070
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO ECG 5 VIAS PARA MONITOR M1668A PHILIPS</td>
+        <td data-type="cod">141671
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE LEADS COM CINCO DERIVACOES REF M1644A PHILIPS - não é jacaré</td>
+        <td data-type="cod">140299
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE PNI REF M1599B PARA MONITOR PHILIPS MP-20</td>
+        <td data-type="cod">107436
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA M1191BL PHILIPS</td>
+        <td data-type="cod">108840
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 10.8V 65Wh COD M4605A P/MONITOR MULTIPARAMETRO MARCA PHILIPS MOD MP20 e MP40</td>
+        <td data-type="cod">145310
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE PNI 3,5M PARA ADULTO E CRIANÇA COD S902 REF YN-901P NIHON KOHDEN</td>
+        <td data-type="cod">156509
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG TRONCO K922-JC906P NIHON KOHDEN</td>
+        <td data-type="cod">101673
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>(LEADS) CABO DE ECG 3VIAS REF BR-903P K911 NIHON KOHDEN</td>
+        <td data-type="cod">125281
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEDS 6VIAS BR 906P-K912 NIHON KOHDEN</td>
+        <td data-type="cod">104382
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA TL-201T NIHON KOHDEN</td>
+        <td data-type="cod">113036
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE PNI 3,5M PARA ADULTO E CRIANÇA COD S902 REF YN-901P NIHON KOHDEN</td>
+        <td data-type="cod">156509
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG TRONCO K922-JC906P NIHON KOHDEN</td>
+        <td data-type="cod">101673
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>(LEADS) CABO DE ECG 3VIAS REF BR-903P K911 NIHON KOHDEN</td>
+        <td data-type="cod">125281
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEDS 6VIAS BR 906P-K912 NIHON KOHDEN</td>
+        <td data-type="cod">104382
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA TL-201T NIHON KOHDEN</td>
+        <td data-type="cod">113036
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE ECG 3VIAS MODELO EA6132B COMPLETO CABO TRONCO+LEADS</td>
+        <td data-type="cod">112441
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V 2300MAH MOD FILMADORA SELADA PB PARA MONITOR MEC 1000</td>
+        <td data-type="cod">116266
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>BATERIA 12V/2300MAH FB1223 PARA OXIMETRO VS800 MINDRAY</td>
+        <td data-type="cod">134578
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA 0010-20-42594 MINDRAY</td>
+        <td data-type="cod">101587
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SENSOR DE OXIMETRIA REF 512F-30-28263 MINDRAY</td>
+        <td data-type="cod">101675
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO DE RABICHOS LEADS ECG 5 VIAS AHA PARA DASH REF 414556-001 GE B650</td>
+        <td data-type="cod">98399
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO DE ECG REF 2017003-001 PARA MONITOR GE B650</td>
+        <td data-type="cod">98398
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR OXIMETRIA OHMEDA REF TS-G3 - (GE B650 / Compact) - NÃO PADRÃO</td>
+        <td data-type="cod">98339
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUEIRA PNI PARA DASH E TRAM DE 3,6M CARE NIBP MIRI AIRHOSE, MATED SUBMIN ADULTO 12 FT REF 2020980-001 GE
+          B650</td>
+        <td data-type="cod">104981
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRANSDUTOR DE PRESSAO MARQUETTE REF 896507021 EDWARDS LIFESCIENCES - CABO PAM B650</td>
+        <td data-type="cod">183075
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO EXTENSOR DE OXIMETRIA OHMEDA TS-N3 GE CARDIOCAP</td>
+        <td data-type="cod">104823
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRONCO PARA MONITOR CARDIOCAP GE REF545303 - AHA 5 VIAS</td>
+        <td data-type="cod">98394
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CONJUNTO LEDS 5VIAS OHMEDA CARDIOCAP GE REF545318 - AHA 5 VIAS JACARÉ</td>
+        <td data-type="cod">98396
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>MANGUEIRA DE PRESSÃO REF. DX-0JC0A-0 DIXTAL - CARDIOCAP</td>
+        <td data-type="cod">104070
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO TRANSDUTOR DE PRESSAO DATEX 896034021 EDWARDS LIFESCIENCES - CABO PAM CARDIOCAP</td>
+        <td data-type="cod">183342
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CHICOTE DE CO2 COMPLETO STORZ</td>
+        <td data-type="cod">104852
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SISTEMA COMPLETO DE TERAPIA DE AR BIO AIR II 220V REF 946-23</td>
+        <td data-type="cod">164550
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO LUZ FRIA</td>
+        <td data-type="cod">142549
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>ABRAÇADEIRA PLASTICA Pequena - ALMOXARIFADO</td>
+        <td data-type="cod">61890
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>ABRAÇADEIRA PLASTICA Média - ALMOXARIFADO</td>
+        <td data-type="cod">61891
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>ABRAÇADEIRA PLASTICA Média - ALMOXARIFADO</td>
+        <td data-type="cod">61891
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>ADAPTADOR TOMADA 1 (Padrão Novo p/ Velho Parede) - ALMOXARIFADO</td>
+        <td data-type="cod">61895
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>ADAPTADOR TOMADA 2 (Padrão Velho p/ Novo Parede) - ALMOXARIFADO</td>
+        <td data-type="cod">61896
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>CABO DE FORÇA 2M - ALMOXARIFADO</td>
+        <td data-type="cod">61273
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>LINHA DE CAPNOGRAFIA - ALMOXARIFADO</td>
+        <td data-type="cod">61395
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+      <tr>
+        <td>SSSSSSSSSSSSSSSS</td>
+        <td data-type="cod">12345
+        <td><button data-type="copy">Copiar tasy</button></td>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="footer">
+    <p>Criado por Antonio Furtado<br>Todos os direitos reservados</p>
+  </div>
+
+  <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
       }
-    }       
-  }
-}
+    }
 
-document.querySelectorAll('button[data-type="copy"]')
-  .forEach(function(button){
-      button.addEventListener('click', function(){
-      let cod = this.parentNode.parentNode
-        .querySelector('td[data-type="cod"]')
-        .innerText;
-      
-      let tmp = document.createElement('textarea');
+    document.querySelectorAll('button[data-type="copy"]')
+      .forEach(function (button) {
+        button.addEventListener('click', function () {
+          let cod = this.parentNode.parentNode
+            .querySelector('td[data-type="cod"]')
+            .innerText;
+
+          let tmp = document.createElement('textarea');
           tmp.value = cod;
           tmp.setAttribute('readonly', '');
           tmp.style.position = 'absolute';
@@ -127,11 +750,12 @@ document.querySelectorAll('button[data-type="copy"]')
           document.execCommand('copy');
           document.body.removeChild(tmp);
           console.log(`${cod} copied.`);
-    });
-});
+        });
+      });
 
 
-</script>
+  </script>
 
 </body>
+
 </html>
