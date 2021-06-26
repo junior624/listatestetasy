@@ -12,7 +12,7 @@
   #titulo {
       border: 1px solid #243b53;
       border-radius: 15px;
-      width: 98%;
+      width: 99%;
       margin-bottom: 10px;
       background-color: #243b53;
       color: #e0e0e0;
@@ -22,7 +22,7 @@
     background-image: url('/css/searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    width: 98%;
+    width: 99%;
     font-size: 16px;
     padding: 12px 20px 12px 12px;
     border: 1px solid #e0e0e0;
@@ -34,7 +34,7 @@
   
   #myTable {
     border-collapse: collapse;
-    width: 98%;
+    width: 99%;
     border: 1px solid#243b53;
     font-size: 18px;
     background-color: #e0e0e0;
