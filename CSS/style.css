@@ -16,6 +16,7 @@
       margin-bottom: 10px;
       background-color: #243b53;
       color: #e0e0e0;
+      min-width: 720px;
   }
 
   #myInput {
@@ -35,6 +36,7 @@
   #myTable {
     border-collapse: collapse;
     width: 100%;
+    min-width: 720px;
     border: 1px solid#243b53;
     font-size: 18px;
     background-color: #e0e0e0;
