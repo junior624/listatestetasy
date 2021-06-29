@@ -12,19 +12,19 @@
   #titulo {
       border: 1px solid #243b53;
       border-radius: 15px;
-      width: 100%;
+      width: 98%;
       margin-bottom: 10px;
       background-color: #243b53;
       color: #e0e0e0;
-      min-width: 600px;
+      min-width: 400px;
   }
 
   #myInput {
     background-image: url('/css/searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    width: 100%;
-    min-width: 600px;
+    width: 98%;
+    min-width: 400px;
     font-size: 16px;
     padding: 12px 20px 12px 12px;
     border: 1px solid #e0e0e0;
@@ -36,8 +36,8 @@
   
   #myTable {
     border-collapse: collapse;
-    width: 100%;
-    min-width: 600px;
+    width: 98%;
+    min-width: 400px;
     border: 1px solid#243b53;
     font-size: 18px;
     background-color: #e0e0e0;
@@ -58,7 +58,7 @@
     color: #e0e0e0;
     font-family: 'Open Sans', sans-serif;
     transition: 0.4s;
-    width: 100%;
+    width: 98%;
   }
   
   h2 {
