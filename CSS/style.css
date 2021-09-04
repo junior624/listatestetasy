@@ -12,7 +12,7 @@
   #titulo {
       border: 1px solid #243b53;
       border-radius: 15px;
-      width: 100%;
+      width: 98%;
       margin-bottom: 10px;
       background-color: #243b53;
       color: #e0e0e0;
@@ -23,7 +23,7 @@
     
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 98%;
     min-width: 400px;
     font-size: 16px;
     padding: 12px 20px 12px 12px;
@@ -36,7 +36,7 @@
   
   #myTable {
     border-collapse: collapse;
-    width: 100%;
+    width: 98%;
     min-width: 400px;
     border: 1px solid#243b53;
     font-size: 18px;
@@ -58,7 +58,7 @@
     color: #e0e0e0;
     font-family: 'Open Sans', sans-serif;
     transition: 0.4s;
-    width: 100%;
+    width: 98%;
   }
   
   h2 {
