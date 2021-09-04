@@ -37,7 +37,7 @@
   #myTable {
     border-collapse: collapse;
     width: 98%;
-    min-width: 400px;
+    min-width: 200px;
     border: 1px solid#243b53;
     font-size: 18px;
     background-color: #e0e0e0;
